@@ -1,51 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bar Navigasi</title>
-    <style>
-        body {
-            background-color: antiquewhite;
-            font-family: Arial, Helvetica, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color:rgb(121, 76, 8);
-            padding: 20px 0;
-            text-align: center;
-        }
-        header a {
-            color: white;
-            font-size: 20px;
-            text-decoration: none;
-            margin: 0 15px;
-            transition: color 0.3s ease;
-        }
-        header a:hover{
-            color: rgb(255, 164, 46);
-        }
-        h1 {
-            text-align: center;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bar Navigasi</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fdf6ec;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: #7a4c08;
+      padding: 15px;
+      text-align: center;
+    }
+
+    header a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 16px;
+      transition: color 0.3s;
+    }
+
+    header a:hover {
+      color: #ffa42e;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 30px 0 20px;
+      font-size: 24px;
+    }
+
+    .content {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 5px;
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+    }
+
+    .image {
+      flex: 0 0 250px;
+    }
+
+    .image img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .text {
+  flex: 1;
+}
+
+    .text p {
+  margin-bottom: 175px; 
+}
+
+  </style>
 </head>
 <body>
-    <header>
-        <a href="index.html">Home</a>
-        <a href="agama.html">Agama</a>
-        <a href="pkn.html">PKN</a>
-        <a href="bahasaindonesia.html">Bahasa Indonesia</a>
-    </header>
-    <h1>Ini adalah halaman PKN</h1>
-    <table border="5px">
-        <tr style="background-color: beige;">
-            <th>Dalam pelajaran PKN saya belajar tentang 4 Pillar Pancasila yaitu, UUD 1945, NKRI, Pancasila dan Bhinneka Tunggal Ika. Selain itu kami juga belajar tentang budaya-budaya di Indonesia. Kami ditugaskan untuk membuat boardgame untuk PKN</th>
-        </tr>
-        <tr style="background-color: beige;">
-            <th><img src="inin.jpg"></th>
-        </tr>
-    </table>
+
+  <header>
+    <a href="index.html">Home</a>
+    <a href="agama.html">Agama</a>
+    <a href="pkn.html">PKN</a>
+    <a href="bahasaindonesia.html">Bahasa Indonesia</a>
+    <a href="bahasainggris.html">Bahasa Inggris</a>
+    <a href="bahasamandarin.html">Bahasa Mandarin</a>
+    <a href="ips.html">IPS</a>
+  </header>
+
+  <h1>Ini adalah halaman PKN</h1>
+
+  <div class="content">
+    <div class="image">
+      <img src="CKSme.jpeg" alt="CKS">
+      <img src="Nationalmuseum.jpeg" alt="National">
+    </div>
+    <div class="text">
+      <h1>Chiang Kai Shek</h1>
+      <p>
+        Tempat memorial Chiang Kai-Shek merupakan salah satu tempat paling terkenal di Taiwan. 
+        Tempat ini dibangun untuk mengenang dan menghormati Chiang Kai-Shek, pemimpin politik dan militer penting dalam sejarah Taiwan.
+        Memorial ini dibangun untuk memperingati kontribusi Chiang Kai-Shek terhadap sejarah modern China dan Taiwan, terutama perannya dalam Perang Saudara China dan masa awal pembentukan Republik China di Taiwan.
+        Tempat memorial ini juga merupakan tempat dimana Chiang Kai-Shek tinggal zaman dulu.
+    </p>
+  
+    <h1>National Palace Museum</h1>
+    <p>
+      National Palace Museum di Taiwan adalah salah satu museum paling terkenal di dunia, terutama karena adanya koleksi seni dan artefak China dari zaman dahulu yang sangat besar dan berharga.
+      Dalam museum ini, terdapat lebih dari 700 000 artefak seperti lukisan, kaligrafi, keramik, perunggu, batu giok, dokumen sejarah, dan barang-barang yang digunakan raja pada zaman dahulu.
+      Museum ini juga digunakan sebagai sarana edukasi bagi siswa/i dari berbagai negara.
+    </p>
+    </div>
+  </div>
 </body>
 </html>

@@ -1,52 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bar Navigasi</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bar Navigasi</title>
 
-    <style>
-        body {
-            background-color: antiquewhite;
-            font-family: Arial, Helvetica, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color:rgb(121, 76, 8);
-            padding: 20px 0;
-            text-align: center;
-        }
-        header a {
-            color: white;
-            font-size: 20px;
-            text-decoration: none;
-            margin: 0 15px;
-            transition: color 0.3s ease;
-        }
-        header a:hover{
-            color: rgb(255, 164, 46);
-        }
-        h1 {
-            text-align: center;
-        }
-    </style>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fdf6ec;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: #7a4c08;
+      padding: 15px;
+      text-align: center;
+    }
+
+    header a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 16px;
+      transition: color 0.3s;
+    }
+
+    header a:hover {
+      color: #ffa42e;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 30px 0 20px;
+      font-size: 24px;
+    }
+
+    .content {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 5px;
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+    }
+
+    .image {
+      flex: 0 0 250px;
+    }
+
+    .image img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .text {
+      flex: 1;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <a href="index.html">Home</a>
-        <a href="agama.html">Agama</a>
-        <a href="pkn.html">PKN</a>
-        <a href="bahasaindonesia.html">Bahasa Indonesia</a>
-    </header>
-    <h1>Ini adalah halaman Agama</h1>
-    <table border="5px">
-        <tr style="background-color: beige;">
-            <th>Dalam pelajaran Agama saya belajar tentang Kebangkitan Yesus. Kami belajar bahwa Yesus telah bangkit daripada orang mati dan menampakkan dirinya selama 40 hari. Salah satu bukti Yesus bangkit iyalah saat murid-murid Yesus pergi ke sebuah tempat, mereka tiba-tiba di jumpai Yesus dan mereka diajak berjalan dengannya.</th>
-        </tr>
-        <tr style="background-color: beige;">
-            <th><img src="jesus.jpg"></th>
-        </tr>
-    </table>
+
+  <header>
+    <a href="index.html">Home</a>
+    <a href="agama.html">Agama</a>
+    <a href="pkn.html">PKN</a>
+    <a href="bahasaindonesia.html">Bahasa Indonesia</a>
+    <a href="bahasainggris.html">Bahasa Inggris</a>
+    <a href="bahasamandarin.html">Bahasa Mandarin</a>
+    <a href="ips.html">IPS</a>
+  </header>
+
+  <h1>Ini adalah halaman Agama</h1>
+
+  <div class="content">
+    <div class="image">
+      <img src="communityservice.jpeg" alt="Community Service">
+    </div>
+    <div class="text">
+      <p>
+        Saat di Taiwan, kami diberi kesempatan untuk melakukan pelayanan masyarakat.
+        Dalam kegiatan ini kami bisa menemani opa dan oma dalam berbagai kegiatan seperti menari dan belajar bahasa isyarat.
+        Kami belajar bahwa di tempat tersebut ada banyak yang sukarelawan untuk membantu opa dan oma disana. 
+        Tidak hanya itu tetapi juga ada petugas yang bertugas untuk membantu oma dan opa dalam hal / kegiatan apapun. 
+      </p>
+      <p>
+        Dalam kegiatan ini, saya belajar banyak hal seperti saya bisa melakukan syarat menjadi murid Yesus dengan menyangkal diri.
+        Ini berarti untuk meletakkan ego, kenyamanan pribadi, dan kepentingan sendiri untuk melayani sesama dengan kasih yang tulus.
+        Saat saya menemani orang tua dalam kegiatan pelayanan, saya belajar untuk mengesampingkan waktu dan aktivitas saya sendiri,
+        mengorbankan kenyamanan dan menghadirkan kasih dan empati bagi sesama.
+      </p>
+      <p>
+        Saya juga belajar untuk menjadi murid Yesus yang memanggul salib.
+        Ini berarti kesediaan untuk menjalani kehidupan yang penuh pengorbanan, ketaatan, dan kasih, meskipun tidak mudah.
+        Saat saya menemani orang tua dalam kegiatan pelayanan, saya belajar untuk mengasih kepada orang tua dan saya juga dapat membawa kehadiran Kristus diantara bersama.
+      </p>
+      <p>
+        Saya juga belajar untuk menjadi murid Yesus yang mengikuti Yesus.
+        Ini berarti meneladani hidup dan kasih-Nya setiap hari.
+        Saat saya menemani orang tua dalam kegiatan pelayanan, saya belajar untuk selalu meluangkan waktu untuk keluarga dan orang lain terutama yang sudah tua dalam hal apapun.
+    </p>
+    </div>
+  </div>
+
 </body>
 </html>
